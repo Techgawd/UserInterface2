@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+header{
+ font-size: 120px;
+ height: 490px;
+ margin: 0 0 30px 0;
+} 
+header h1 {
+font-size: 100px;
+text-align: center;
+display: inline-block;
+margin: 10px 0 0 100px;
+padding: 30px 0 0 0;
+}
+
+header button{
+width: 130px;
+font-size: 16px;
+
+}
+
+header img {
+	display: inline-block;
+width: 450px;
+margin: 100px 60px 0 110px;
+}
+
+nav {
+	margin: 0 50px 10px 50px;
+	height: 65px;
+}
+
+nav img {
+	margin: 10px 0 0 50px;
+	width:275px;
+	padding: 40px 0 0 0;
+}
+
+nav a {
+	margin: 0 0 0 40px;
+	font-size: 24px;
+	color: black;
+}
+
+header {
+    margin: 30px 50px 120px 40px;
+
+}
+
+.top-section {
+	display: inline-block;
+	width:550px;
+	margin: 50px 10px 10px 40px;
+}
+   
+h2 {
+
+font-size: 22px;
+}
+
+p {
+
+font-size: 18px;
+}
+   .top-section1 {
+	   display: inline-block;
+	   width:625px;
+	   
+   }
+
+   .middle-img {
+	   width: 1190px;
+	   height:150px;
+	   margin: 20px 40px 10px 40px;
+   }
+
+   .bottom-section {
+	display: inline-block;
+	width:390px;
+	margin: 0 0 0 40px;
+}
+.bottom-section1 {
+	display: inline-block;
+	width:390px;
+}
+
+.bottom-section2 {
+	display: inline-block;
+	width:390px;
+	margin: 20px 40px 60px 0;
+}
+
+.contact {
+	width:430px;
+	height: 250px;
+	margin: 15px 0 0 40px;
+
+}
+
+footer {
+	text-align: center;
+}
+
+hr { 
+	margin: 0 40px 0 40px; 
+	height:1px; 
+	background: 
+	#fff 
+}
